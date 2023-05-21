@@ -18,17 +18,17 @@ class MobileLayoutScreen extends StatelessWidget {
             'WhatsApp',
             style: TextStyle(
               fontSize: 20,
-              color: Colors.grey,
+              color: Color.fromARGB(255, 255, 254, 254),
               fontWeight: FontWeight.bold,
             ),
           ),
           actions: [
             IconButton(
-              icon: const Icon(Icons.search, color: Colors.grey),
+              icon: const Icon(Icons.search, color: Color.fromARGB(255, 255, 255, 255)),
               onPressed: () {},
             ),
             IconButton(
-              icon: const Icon(Icons.more_vert, color: Colors.grey),
+              icon: const Icon(Icons.more_vert, color: Color.fromARGB(255, 255, 255, 255)),
               onPressed: () {},
             ),
           ],
@@ -36,7 +36,7 @@ class MobileLayoutScreen extends StatelessWidget {
             indicatorColor: tabColor,
             indicatorWeight: 4,
             labelColor: tabColor,
-            unselectedLabelColor: Colors.grey,
+            unselectedLabelColor: Color.fromARGB(255, 255, 255, 255),
             labelStyle: TextStyle(
               fontWeight: FontWeight.bold,
             ),
@@ -59,7 +59,7 @@ class MobileLayoutScreen extends StatelessWidget {
           backgroundColor: tabColor,
           child: const Icon(
             Icons.comment,
-            color: Colors.white,
+            color: Color.fromARGB(255, 255, 250, 250),
           ),
         ),
       ),
