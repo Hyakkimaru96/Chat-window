@@ -55,9 +55,9 @@ class MobileChatScreen extends StatelessWidget {
                 ),
               ),
               hintText: 'Type a message!',
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(20.0),
-                borderSide: const BorderSide(
+              border: const OutlineInputBorder(
+                borderRadius: BorderRadius.zero, // Set the border radius to zero
+                borderSide: BorderSide(
                   width: 0,
                   style: BorderStyle.none,
                 ),
