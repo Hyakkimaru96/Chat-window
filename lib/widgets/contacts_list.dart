@@ -30,14 +30,19 @@ class ContactsList extends StatelessWidget {
                     title: Text(
                       info[index]['name'].toString(),
                       style: const TextStyle(
+                        color: Colors.black,
                         fontSize: 18,
+                        fontWeight: FontWeight.bold
                       ),
                     ),
                     subtitle: Padding(
-                      padding: const EdgeInsets.only(top: 6.0),
+                      padding: const EdgeInsets.only(top: 10.0),
                       child: Text(
                         info[index]['message'].toString(),
-                        style: const TextStyle(fontSize: 15),
+                        style: const TextStyle(
+                            color: Colors.black,
+                          fontSize: 18
+                          ),
                       ),
                     ),
                     leading: CircleAvatar(
@@ -49,14 +54,14 @@ class ContactsList extends StatelessWidget {
                     trailing: Text(
                       info[index]['time'].toString(),
                       style: const TextStyle(
-                        color: Colors.grey,
+                        color: Colors.black,
                         fontSize: 13,
                       ),
                     ),
                   ),
                 ),
               ),
-              const Divider(color: dividerColor, indent: 85),
+              const Divider(color: dividerColor, indent: 80),
             ],
           );
         },
